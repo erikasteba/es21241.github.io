@@ -1,0 +1,327 @@
+hr {
+width: 50%;
+margin: 0 25%;
+color: black;
+}
+
+@media(max-width:1200px){
+  .t{
+    font-size: 40px;
+  }
+}
+
+
+
+/*navbar*/
+#title {
+  background-color: #F9F9F9;
+}
+
+.navbar{
+  width: 100%;
+   background-color: #704F4F;
+     position: fixed;
+}
+.nav-item{
+  padding-right:15px;
+}
+.navbar-collapse{
+  text-align: center;
+}
+.nbg{
+  position: absolute;
+}
+.logo{
+  width: 100px;
+}
+
+/*  INDEX */
+
+
+/* main photo */
+.test4{
+  padding-top: 100px;
+}
+.photo{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+@media(max-width: 1100px) and (min-width:800px){
+  .test4{
+  display: flex;
+  justify-content: center;
+  }
+  .photo{
+    width:120%;
+  }
+}
+
+@media(max-width: 800px){
+.box.col-lg-4.col-4{
+  width:600px;
+}
+
+}
+
+
+.klio_inside_image{
+  text-align: center;
+}
+.darba_laiks{
+  text-align: center;
+  padding-top: 60px;
+}
+.darba_laiks{
+  font-family: 'Playfair Display SC';
+  font-size: 35px;
+  font-weight: 600;
+  color: black;
+}
+.imgklioinside{
+  width: 20rem;
+  padding-bottom: 30px;
+}
+
+
+
+
+/* 3 icons mes nodrosinam */
+#parmums{
+  background-color: #F6E7D8;
+}
+.mes_nodrosinam{
+  text-align: center;
+  padding-top: 3rem;
+}
+.beauty_icons{
+  color:#512B58;
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+.beauty_icons:hover{
+  color: #A77979;
+}
+.collage_photo{
+width:100%;
+}
+.box{
+  text-align:center;
+  padding: 5%;
+}
+
+
+
+
+
+#par_mums2{
+background-color: #c2a1a1;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+.klio_outside{
+    width: 100%;
+    text-align: center;
+}
+.musu_meistari{
+  font-family: 'Michroma', sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  color: #512B58;
+}
+.row12{
+  margin-top:0;
+  color: #3B2B2B;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+
+
+
+
+#carousel{
+  padding-top:10px;
+  padding-bottom:80px;
+}
+.vizitki{
+  width:90%;
+  margin:auto;
+}
+
+
+
+
+
+#carouselExampleIndicators{
+  margin: auto;
+  width: 90%;
+}
+
+
+#informacija{
+  padding-top: 40px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+
+#maps{
+}
+.map12{
+  padding-top: 100px;
+  padding-bottom:5px;
+    margin: auto;
+    width:80%;
+}
+
+
+
+
+
+/* CONTACTS */
+.pakunkon{
+  padding-top: 90px;
+}
+.arrow{
+font-size: 30px;
+color:#512B58;
+ padding: 0px 20px;
+}
+.pk_zagolovok{
+  text-align: center;
+  padding-top:30px;
+}
+.btn5{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.pkcontainer{
+  padding-bottom:30px;
+}
+.klinside{
+  width:80%;
+}
+
+
+
+
+
+/* GALLERY */
+.gallerija{
+  text-align: center;
+  padding-top: 100px;
+}
+.galleryphotos{
+  margin: auto;
+  padding: 50px;
+  width: 85%;
+}
+
+
+
+
+
+/* VAKANCES */
+#adv{
+  padding-top:100px;
+}
+.aicinam{
+  background-color: #F5EFE6;
+  padding:70px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right:auto;
+  width: 60%;
+  text-align: center;
+}
+.l{
+  text-align: center;
+    align-items: center;
+    margin:auto;
+
+  margin-bottom:20px;
+}
+
+
+.k {
+  padding-bottom:20px;
+  display: flex;
+  align-items: center;
+}
+.klh1{
+  font-size:40px;
+}
+.kl{
+  font-size: 23px;
+}
+.kla{
+  font-size:25px;
+}
+@media (max-width: 900px) {
+
+  .klh1{
+    font-size:18px;
+  }
+  .kla{
+    font-size: 17px;
+  }
+  .kl{
+    font-size: 16px;
+  }
+}
+
+a:visited {
+  color: pink;
+}
+
+#tel::placeholder {
+  color: grey;
+}
+input:focus {
+  background-color: #F0CC9E;
+}
+::marker {
+  color: blue;
+}
+.name{}
+
+.pieraksts{
+  display: grid;
+  place-items: center;
+}
+
+
+.grid-container {
+  margin-top:70px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 5px;
+  text-align: center;
+}
+
+
+.pakalp1 { color: red; }
+.pakalp2 { color: orange; }
+.pakalp1.pakalp2 { color: gold; }
+
+
+.iesppakalpojumi{
+  align-items: center;
+  margin-top:20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}

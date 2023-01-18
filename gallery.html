@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>KLIO skaistumkopšanas salons</title>
+  <link rel="icon" href="images/k.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!--css-->
+  <link rel="stylesheet" href="stylecss/style.css">
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alkalami&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap" rel="stylesheet">
+  <!--small pictures-->
+  <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+  <section id="title">
+    <h6>gallerija</h6>
+    <!--nav bar down-->
+    <div class="nbg navbar">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a href="index.html"><img src="images/kliologo.png" alt="klio" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class=" navbar-nav ms-auto">
+          <li class="nav-item t"><a class="nav-link" href="index.html">Galvēna</a></li>
+          <li class="nav-item t"><a class="nav-link" href="contacts.html">Pakalpojumi un kontakti</a></li>
+          <li class="nav-item t"><a class="nav-link" href="#"><u><i>Gallerija</i></u></a></li>
+          <li class="nav-item t"><a class="nav-link" href="vakances.html">Pierakstīties</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--nav bar up-->
+
+
+  </section>
+
+
+  <div class="grid-container">
+    <div class="grid-item"><button type="button" name="button" onmouseover="openphoto1(this)" onmouseout="closephoto1(this)" ><img src="images/galleryphoto/6.jpg" class="d-block w-100" alt="..t."></button></div>
+    <div class="grid-item"><button type="button" name="button" onmouseover="openphoto2(this)" onmouseout="closephoto2(this)" ><img src="images/galleryphoto/12.jpg" class="d-block w-100" alt="..t."></button></div>
+    <div class="grid-item"><button type="button" name="button" onmouseover="openphoto3(this)" onmouseout="closephoto3(this)" ><img src="images/galleryphoto/7.jpg" class="d-block w-100" alt="..t."></button></div>
+    <div class="grid-item"><button type="button" name="button" onmouseover="openphoto4(this)" onmouseout="closephoto4(this)" ><img src="images/galleryphoto/13.jpg" class="d-block w-100" alt="..t."></button></div>
+    <div class="grid-item"><button type="button" name="button" onmouseover="openphoto5(this)" onmouseout="closephoto5(this)"><img src="images/galleryphoto/1.jpg" class="d-block w-100" alt="..t."></button></div>
+    <div class="grid-item"><button type="button" name="button" onmouseover="openphoto6(this)" onmouseout="closephoto6(this)"><img src="images/galleryphoto/8.jpg" class="d-block w-100" alt="..t."></button></div>
+
+  </div>
+
+
+<script>
+
+
+function openphoto1(){
+  var img = document.createElement('img');
+  img.id="pho1";
+  img.src ='images/galleryphoto/6.jpg';
+  img.style.width="40%";
+  img.style.marginLeft="auto";
+  img.style.marginRight="auto";
+  img.style.display="block";
+  document.body.appendChild(img);
+}
+function closephoto1(x) {
+  var img1 = document.getElementById("pho1");
+    img1.remove();
+}
+
+function openphoto2(){
+  var img = document.createElement('img');
+  img.id="pho2";
+  img.src ='images/galleryphoto/12.jpg';
+  img.style.width="40%";
+  img.style.marginLeft="auto";
+  img.style.marginRight="auto";
+  img.style.display="block";
+  document.body.appendChild(img);
+}
+function closephoto2(x) {
+  var img1 = document.getElementById("pho2");
+    img1.remove();
+}
+
+
+function openphoto3(){
+  var img = document.createElement('img');
+  img.id="pho3";
+  img.src ='images/galleryphoto/7.jpg';
+  img.style.width="40%";
+  img.style.marginLeft="auto";
+  img.style.marginRight="auto";
+  img.style.display="block";
+  document.body.appendChild(img);
+}
+function closephoto3(x) {
+  var img1 = document.getElementById("pho3");
+    img1.remove();
+}
+
+function openphoto4(){
+  var img = document.createElement('img');
+  img.id="pho4";
+  img.src ='images/galleryphoto/13.jpg';
+  img.style.width="40%";
+  img.style.marginLeft="auto";
+  img.style.marginRight="auto";
+  img.style.display="block";
+  document.body.appendChild(img);
+}
+function closephoto4(x) {
+  var img1 = document.getElementById("pho4");
+    img1.remove();
+}
+
+function openphoto5(){
+  var img = document.createElement('img');
+  img.id="pho5";
+  img.src ='images/galleryphoto/1.jpg';
+  img.style.width="40%";
+  img.style.marginLeft="auto";
+  img.style.marginRight="auto";
+  img.style.display="block";
+  document.body.appendChild(img);
+}
+function closephoto5(x) {
+  var img1 = document.getElementById("pho5");
+    img1.remove();
+}
+
+function openphoto6(){
+  var img = document.createElement('img');
+  img.id="pho6";
+  img.src ='images/galleryphoto/8.jpg';
+  img.style.width="40%";
+  img.style.marginLeft="auto";
+  img.style.marginRight="auto";
+  img.style.display="block";
+  document.body.appendChild(img);
+}
+function closephoto6(x) {
+  var img1 = document.getElementById("pho6");
+    img1.remove();
+}
+
+
+
+</script>
+
+
+</body>
+
+</html>
